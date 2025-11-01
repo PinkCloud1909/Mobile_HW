@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECECEC"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <!-- Màn hình hiển thị kết quả -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="end|center_vertical"
+        android:text="0"
+        android:textSize="40sp"
+        android:background="#DDDDDD"
+        android:padding="10dp" />
+
+    <!-- Lưới nút -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_marginTop="10dp">
+
+        <!-- Dòng 1 -->
+        <Button
+            android:id="@+id/btnCE"
+            style="@style/CalcButton"
+            android:text="CE" />
+        <Button
+            android:id="@+id/btnC"
+            style="@style/CalcButton"
+            android:text="C" />
+        <Button
+            android:id="@+id/btnBS"
+            style="@style/CalcButton"
+            android:text="BS" />
+        <Button
+            android:id="@+id/btnDiv"
+            style="@style/CalcButton"
+            android:text="/" />
+
+        <!-- Dòng 2 -->
+        <Button android:id="@+id/btn7" style="@style/CalcButton" android:text="7" />
+        <Button android:id="@+id/btn8" style="@style/CalcButton" android:text="8" />
+        <Button android:id="@+id/btn9" style="@style/CalcButton" android:text="9" />
+        <Button android:id="@+id/btnMul" style="@style/CalcButton" android:text="x" />
+
+        <!-- Dòng 3 -->
+        <Button android:id="@+id/btn4" style="@style/CalcButton" android:text="4" />
+        <Button android:id="@+id/btn5" style="@style/CalcButton" android:text="5" />
+        <Button android:id="@+id/btn6" style="@style/CalcButton" android:text="6" />
+        <Button android:id="@+id/btnSub" style="@style/CalcButton" android:text="-" />
+
+        <!-- Dòng 4 -->
+        <Button android:id="@+id/btn1" style="@style/CalcButton" android:text="1" />
+        <Button android:id="@+id/btn2" style="@style/CalcButton" android:text="2" />
+        <Button android:id="@+id/btn3" style="@style/CalcButton" android:text="3" />
+        <Button android:id="@+id/btnAdd" style="@style/CalcButton" android:text="+" />
+
+        <!-- Dòng 5 -->
+        <Button android:id="@+id/btn0" style="@style/CalcButton" android:text="0" />
+        <View android:layout_width="0dp" android:layout_height="0dp"
+            android:layout_columnWeight="1" android:layout_rowWeight="1" />
+        <View android:layout_width="0dp" android:layout_height="0dp"
+            android:layout_columnWeight="1" android:layout_rowWeight="1" />
+        <Button android:id="@+id/btnEqual" style="@style/CalcButton" android:text="=" />
+
+    </GridLayout>
+
+</LinearLayout>
