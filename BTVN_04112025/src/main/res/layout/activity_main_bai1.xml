@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF">
+
+    <!-- Màn hình hiển thị kết quả -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E0E0E0"
+        android:gravity="end|center_vertical"
+        android:padding="16dp"
+        android:text="0"
+        android:textSize="48sp" />
+
+    <!-- Hàng 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="CE" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="C" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="BS" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="/" />
+    </LinearLayout>
+
+    <!-- Hàng 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="7" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="8" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="9" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="x" />
+    </LinearLayout>
+
+    <!-- Hàng 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="6" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="-" />
+    </LinearLayout>
+
+    <!-- Hàng 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="+" />
+    </LinearLayout>
+
+    <!-- Hàng 5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="+/-" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="." />
+
+        <Button
+            style="@style/CalcButton"
+            android:layout_weight="1"
+            android:text="=" />
+    </LinearLayout>
+
+</LinearLayout>
