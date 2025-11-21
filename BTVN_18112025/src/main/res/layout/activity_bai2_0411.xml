@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số nguyên n"
+        android:inputType="number" />
+
+    <!-- Một RadioGroup duy nhất -->
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/rdChan"
+            android:text="Số chẵn"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rdLe"
+            android:text="Số lẻ" />
+
+        <RadioButton
+            android:id="@+id/rdNguyenTo"
+            android:text="Số nguyên tố" />
+
+        <RadioButton
+            android:id="@+id/rdHoanHao"
+            android:text="Số hoàn hảo" />
+
+        <RadioButton
+            android:id="@+id/rdChinhPhuong"
+            android:text="Số chính phương" />
+
+        <RadioButton
+            android:id="@+id/rdFibo"
+            android:text="Số Fibonacci" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lvResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp" />
+</LinearLayout>

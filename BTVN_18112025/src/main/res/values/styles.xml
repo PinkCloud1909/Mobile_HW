@@ -1,0 +1,18 @@
+<resources>
+    <!-- Style cho các nút máy tính -->
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">#EAEAEA</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">#A282FF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+</resources>
